@@ -62,8 +62,8 @@ x-airflow-common:
     AIRFLOW_CONN_GOOGLE_CLOUD_DEFAULT: 'google-cloud-platform://?extra__google_cloud_platform__key_path=/.gc/dtc-de-course-340908-d1e74afff8c7.json'
 
     # TODO: Please change GCP_PROJECT_ID & GCP_GCS_BUCKET, as per your config
-    GCP_PROJECT_ID: 'dtc-de-341603'
-    GCP_GCS_BUCKET: 'dtc_data_lake_dtc-de-341603'
+    config.GCP_PROJECT_ID
+    config.GCP_GCS_BUCKET
 
   volumes:
     - ./dags:/opt/airflow/dags

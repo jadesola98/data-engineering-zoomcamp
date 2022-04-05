@@ -2,7 +2,8 @@
 
 
 ## GCP setup
-Initial Setup
+
+#####Initial Setup
 For this project, GCP free version (upto EUR 300 credits) was used.
 
 1. Created an account with my Google email ID

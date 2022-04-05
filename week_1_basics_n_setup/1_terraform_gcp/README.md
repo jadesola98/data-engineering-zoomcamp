@@ -5,8 +5,8 @@
 Initial Setup
 For this project, GCP free version (upto EUR 300 credits) was used.
 
-Created an account with my Google email ID
-Setup of first project(DTC DE Course) if you haven't already and noted down the "Project ID" 
+1.Created an account with my Google email ID
+2.Setup of first project(DTC DE Course) if you haven't already and noted down the "Project ID" 
 Setup of service account & authentication for this project
 Granted Viewer role to begin with.
 Downloaded service-account-keys (.json) for auth.

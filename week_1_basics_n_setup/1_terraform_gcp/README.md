@@ -5,12 +5,13 @@
 Initial Setup
 For this project, GCP free version (upto EUR 300 credits) was used.
 
-1.Created an account with my Google email ID
-2.Setup of first project(DTC DE Course) if you haven't already and noted down the "Project ID" 
-Setup of service account & authentication for this project
-Granted Viewer role to begin with.
-Downloaded service-account-keys (.json) for auth.
-Downloaded SDK for local setup
+1. Created an account with my Google email ID
+2. Setup of first project(DTC DE Course) if you haven't already and noted down the "Project ID"
+3. Setup of service account & authentication for this project
+4. Granted Viewer role to begin with
+5. Downloaded service-account-keys (.json) for auth
+6. Downloaded SDK for local setup
+
 Set environment variable to point to your downloaded GCP keys:
 SET GOOGLE_APPLICATION_CREDENTIALS="<path/to/your/service-account-authkeys>.json"
 ### Refreshed token/session, and verify authentication

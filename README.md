@@ -1,7 +1,7 @@
 # Data Engineering Zoomcamp
 This project includes multiple projects done during a data engineering zoomcamp.
 
-### [Project 1: Project Setup]
+### Project 1: Project Setup
 Setting up the tools and infrastructure needed for the project
 * Setup GCP account
 * Install Docker and docker-compose 
@@ -12,8 +12,8 @@ Setting up the tools and infrastructure needed for the project
 
 
 
-### [Project 2: Data ingestion]
-Ingesting data into the datalake and bigquery using airflow
+### Project 2: Data ingestion
+Ingesting data into the datalake, bigquery and postgres using airflow
 * Setting up Airflow with Docker-Compose
 * Extraction: Download and unpack the data
 * Pre-processing: Convert this raw data to parquet
@@ -23,22 +23,22 @@ Ingesting data into the datalake and bigquery using airflow
 
 
 
-### [Project 3: Data Warehouse]
+### Project 3: Data Warehouse
 
 
 
 
 
-### [Week 4: Analytics engineering]
+### Project 4: Analytics engineering
 
 
 
 
-### [Week 5: Batch processing](week_5_batch_processing)
+### Project 5: Batch processing
 
 
 
-### [Week 6: Streaming](week_6_stream_processing)
+### Project 6: Streaming
 
 
 

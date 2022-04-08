@@ -23,7 +23,8 @@ def format_to_parquet(src_file, dest_file):
     if not src_file.endswith('.csv'):
         logging.error("Can only accept source files in CSV format, for the moment")
         return
-    table = pv.read_csv(src_file)
+    #table = pv.read_csv(src_file)
+    table = pv.read_csv(src_file, convert_options=pv.ConvertOptions(column_types = {'ehail_fee': 'float64'}))
     pq.write_table(table, dest_file)
 
 

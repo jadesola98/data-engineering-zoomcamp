@@ -1,9 +1,3 @@
--- Query public available table
-SELECT station_id, name FROM
-    bigquery-public-data.new_york_citibike.citibike_stations
-LIMIT 100;
-
-
 -- Creating external table referring to gcs path
 CREATE OR REPLACE EXTERNAL TABLE `taxi-rides-ny.nytaxi.external_yellow_tripdata`
 OPTIONS (
@@ -11,7 +5,7 @@ OPTIONS (
   uris = ['gs://nyc-tl-data/trip data/yellow_tripdata_2019-*.csv', 'gs://nyc-tl-data/trip data/yellow_tripdata_2020-*.csv']
 );
 
--- Check yello trip data
+-- Check yellow trip data
 SELECT * FROM taxi-rides-ny.nytaxi.external_yellow_tripdata limit 10;
 
 -- Create a non partitioned table from external table
